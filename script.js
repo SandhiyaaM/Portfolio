@@ -64,3 +64,39 @@ document.querySelectorAll('section, .card').forEach(el => {
   el.classList.add('reveal'); // Initial state
   observer.observe(el);
 });
+const cards = document.querySelectorAll(".card, .project-card, .skill");
+
+cards.forEach(card => {
+  card.addEventListener("mousemove", (e) => {
+    const rect = card.getBoundingClientRect();
+
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+
+    const rotateX = -(y - centerY) / 15;
+    const rotateY = (x - centerX) / 15;
+
+    card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.03)`;
+  });
+
+  card.addEventListener("mouseleave", () => {
+    card.style.transform = "rotateX(0) rotateY(0)";
+  });
+});
+// Contact form validation
+const contactForm = document.querySelector('.contact-form');
+
+contactForm.addEventListener('submit', function (e) {
+  const name = document.getElementById('name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const message = document.getElementById('message').value.trim();
+
+  if (!name || !email || !message) {
+    e.preventDefault(); // Stop form submission
+    alert('Please fill out all fields before sending.');
+    return false;
+  }
+});
