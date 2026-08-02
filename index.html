@@ -1,0 +1,729 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandhiyaa M — Software Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Sandhiyaa M — Software Developer and UI/UX enthusiast."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <script defer src="./script.js"></script>
+  </head>
+
+  <body>
+    <!-- Custom cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Ambient background layers -->
+    <div class="bg-fx" aria-hidden="true">
+      <div class="bg-dots"></div>
+      <div class="bg-blob blob-a"></div>
+      <div class="bg-blob blob-b"></div>
+      <div class="bg-blob blob-c"></div>
+      <div class="bg-spotlight"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="#home">SM</a>
+        <nav id="nav" class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="btn primary small nav-cta" href="#contact">Hire me</a>
+        <button
+          id="menuBtn"
+          class="hamburger"
+          aria-label="Menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow reveal" data-reveal="fade-up">
+              Hello<span class="dot">•</span> I'm
+            </p>
+            <h1 class="headline reveal" data-reveal="fade-up" data-delay="80">
+              Sandhiyaa <span class="accent">M</span>
+            </h1>
+            <h2 class="tagline reveal" data-reveal="fade-up" data-delay="160">
+              UI Developer / Designer
+            </h2>
+
+            <p class="lead reveal" data-reveal="fade-up" data-delay="240">
+              I build scalable, high-performance web applications using Angular,
+              TypeScript, and modern UI practices.
+            </p>
+            <div class="cta-row reveal" data-reveal="fade-up" data-delay="320">
+              <a class="btn primary glow-btn" href="#contact">Hire Me</a>
+              <a
+                class="btn ghost hover-btn"
+                href="https://github.com/SandhiyaaM"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+              <a
+                class="btn ghost hover-btn"
+                href="./assets/Sandhiyaa_Resume.pdf"
+                download
+              >
+                <i class="fas fa-download"></i> Download Resume
+              </a>
+            </div>
+            <ul class="tech-row reveal" data-reveal="fade-up" data-delay="400">
+              <li style="--i: 0">HTML5</li>
+              <li style="--i: 1">CSS3</li>
+              <li style="--i: 2">JavaScript</li>
+              <li style="--i: 3">Angular</li>
+              <li style="--i: 4">TypeScript</li>
+              <li style="--i: 5">Java</li>
+              <li style="--i: 6">C</li>
+              <li style="--i: 7">SQL</li>
+              <li style="--i: 8">Figma</li>
+            </ul>
+          </div>
+          <div
+            class="hero-art reveal"
+            data-reveal="fade-scale"
+            data-delay="120"
+          >
+            <div class="photo-ring">
+              <img src="./assets/profile.png" alt="Portrait of Sandhiyaa" />
+              <a
+                class="badge-pill"
+                href="https://linkedin.com/in/sandhiyaa-m-a81081231"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn profile"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div class="reveal" data-reveal="fade-right">
+            <h3>About me</h3>
+            <p>
+              Frontend Developer with internship experience building responsive
+              web and mobile applications using React.js, Flutter, Angular,
+              TypeScript, and Tailwind CSS. Skilled in developing reusable UI
+              components, converting Figma designs into production-ready
+              interfaces, and collaborating in Agile teams. Passionate about
+              building clean, scalable, and user-friendly applications.
+            </p>
+            <div class="stats">
+              <div>
+                <span class="num" data-count="14">0</span>
+                <span class="label">Months Experience</span>
+              </div>
+
+              <div>
+                <span class="num" data-count="4">0</span>
+                <span class="label">Internships</span>
+              </div>
+
+              <div>
+                <span class="num" data-count="2">0</span>
+                <span class="label">Projects</span>
+              </div>
+            </div>
+          </div>
+          <div class="card reveal" data-reveal="fade-left" data-delay="120">
+            <h4>Quick facts</h4>
+            <ul class="facts">
+              <li>📍 Chennai, Tamil Nadu</li>
+              <li>🎓 B.E. Computer Science Engineering (2021–2025)</li>
+              <li>
+                🏫 Prince Shri Venkateshwara Padmavathy Engineering College
+              </li>
+              <li>💼 Actively seeking Frontend / UI Developer roles</li>
+              <li>
+                ⚡ Skilled in Reactjs, Tailwind CSS, Angular, TypeScript &amp;
+                Responsive Web Design
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h3 class="reveal" data-reveal="fade-up">Why Hire Me?</h3>
+          <div class="grid cards">
+            <div class="card reveal" data-reveal="fade-up" data-delay="0">
+              <h4>Problem Solver</h4>
+              <p>I build efficient and scalable frontend solutions.</p>
+            </div>
+            <div class="card reveal" data-reveal="fade-up" data-delay="120">
+              <h4>UI/UX Focused</h4>
+              <p>I create clean, user-friendly interfaces.</p>
+            </div>
+            <div class="card reveal" data-reveal="fade-up" data-delay="240">
+              <h4>Fast Learner</h4>
+              <p>Quickly adapt to new tools and technologies.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt">
+        <div class="container">
+          <h3 class="reveal" data-reveal="fade-up">Skills</h3>
+
+          <!-- FRONTEND -->
+          <h4 class="skill-title reveal" data-reveal="fade-up">Frontend</h4>
+          <div class="skills-grid">
+            <div class="skill reveal" data-reveal="pop" style="--i: 1">
+              <i class="devicon-react-original colored"></i>
+              <span>React.js</span>
+            </div>
+
+            <div class="skill reveal" data-reveal="pop" style="--i: 2">
+              <i class="devicon-flutter-plain colored"></i>
+              <span>Flutter</span>
+            </div>
+
+            <div class="skill reveal" data-reveal="pop" style="--i: 3">
+              <i class="devicon-tailwindcss-original colored"></i>
+              <span>Tailwind CSS</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 0">
+              <i class="devicon-angularjs-plain colored"></i>
+              <span>Angular</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 1">
+              <i class="devicon-html5-plain colored"></i><span>HTML5</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 2">
+              <i class="devicon-css3-plain colored"></i><span>CSS3</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 3">
+              <i class="devicon-typescript-plain colored"></i
+              ><span>TypeScript</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 4">
+              <i class="devicon-javascript-plain"></i><span>JavaScript</span>
+            </div>
+          </div>
+
+          <!-- PROGRAMMING -->
+          <h4 class="skill-title reveal" data-reveal="fade-up">Programming</h4>
+          <div class="skills-grid">
+            <div class="skill reveal" data-reveal="pop" style="--i: 0">
+              <i class="devicon-java-plain colored"></i><span>Java</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 1">
+              <i class="devicon-c-plain colored"></i><span>C</span>
+            </div>
+          </div>
+
+          <!-- DATABASE -->
+          <h4 class="skill-title reveal" data-reveal="fade-up">Database</h4>
+          <div class="skills-grid">
+            <div class="skill reveal" data-reveal="pop" style="--i: 0">
+              <i class="devicon-mysql-plain colored"></i><span>MySQL</span>
+            </div>
+          </div>
+
+          <!-- TOOLS & DESIGN -->
+          <h4 class="skill-title reveal" data-reveal="fade-up">
+            Tools &amp; UI/UX
+          </h4>
+          <div class="skills-grid">
+            <div class="skill reveal" data-reveal="pop" style="--i: 0">
+              <i class="devicon-figma-plain colored"></i><span>Figma</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 1">
+              <i class="devicon-git-plain colored"></i
+              ><span>Git &amp; GitHub</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 2">
+              <i class="devicon-vscode-plain colored"></i><span>VS Code</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 3">
+              <i class="devicon-chrome-plain colored"></i
+              ><span>Chrome DevTools</span>
+            </div>
+          </div>
+
+          <!-- CONCEPTS -->
+          <h4 class="skill-title reveal" data-reveal="fade-up">Concepts</h4>
+          <div class="skills-grid">
+            <div class="skill reveal" data-reveal="pop" style="--i: 0">
+              <span>Responsive Design</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 1">
+              <span>Cross-Browser Compatibility</span>
+            </div>
+            <div class="skill reveal" data-reveal="pop" style="--i: 2">
+              <span>Component-Based UI</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section">
+        <div class="container">
+          <h3 class="reveal" data-reveal="fade-up">Experience</h3>
+          <div class="timeline">
+            <article class="titem hover-card reveal" data-reveal="fade-right">
+              <div class="tmeta">
+                <div class="company">
+                  <img src="./assets/veract_logo.jpg" class="company-logo" />
+                  <div>
+                    <h4>
+                      Frontend Developer Intern — Veract Consultancy Pvt. Ltd
+                    </h4>
+                    <span class="tdate">March 2026 – July 2026</span>
+                  </div>
+                </div>
+              </div>
+              <ul>
+                <li>
+                  Developed 3+ responsive UI screens for a School ERP
+                  application using Flutter, React.js, and Tailwind CSS, and
+                  built 2+ UI screens for a POS application using React.js and
+                  Tailwind CSS.
+                </li>
+                <li>
+                  Converted UI designs into responsive, reusable components and
+                  collaborated with the development team using Git to deliver
+                  high quality frontend features.
+                </li>
+                <li>
+                  Ensured cross-browser compatibility and consistent UI
+                  performance across devices using Chrome DevTools.
+                </li>
+              </ul>
+            </article>
+            <article class="titem hover-card reveal" data-reveal="fade-right">
+              <div class="tmeta">
+                <div class="company">
+                  <img src="./assets/codec.jpg" class="company-logo" />
+                  <div>
+                    <h4>UI/UX Designer Intern — Codec Technologies Pvt. Ltd</h4>
+                    <span class="tdate">Aug 2025 – Nov 2025</span>
+                  </div>
+                </div>
+              </div>
+              <ul>
+                <li>
+                  Designed user-friendly wireframes and high-fidelity UI using
+                  Figma, improving usability.
+                </li>
+                <li>
+                  Translated UI designs into responsive web interfaces using
+                  HTML, CSS, and JavaScript.
+                </li>
+                <li>
+                  Applied modern UI/UX principles to enhance user experience
+                  across devices.
+                </li>
+              </ul>
+            </article>
+            <article
+              class="titem reveal"
+              data-reveal="fade-right"
+              data-delay="120"
+            >
+              <div class="tmeta">
+                <div class="company">
+                  <img src="./assets/cmrl logo.png" class="company-logo" />
+                  <div>
+                    <h4>
+                      Web Developer Intern — Chennai Metro Rail Ltd (CMRL)
+                    </h4>
+                    <span class="tdate">May 2024 – Nov 2024 · Chennai</span>
+                  </div>
+                </div>
+              </div>
+              <ul>
+                <li>
+                  Developed Angular modules for Revenue Reconciliation System,
+                  improving data processing efficiency by 30%
+                </li>
+                <li>
+                  Integrated REST APIs to deliver dynamic UI features and
+                  real-time data updates
+                </li>
+                <li>
+                  Optimized frontend performance, reducing page load time by 25%
+                </li>
+                <li>
+                  Collaborated in Agile team delivering production-ready
+                  features within deadlines
+                </li>
+              </ul>
+            </article>
+
+            <article
+              class="titem reveal"
+              data-reveal="fade-right"
+              data-delay="240"
+            >
+              <div class="tmeta">
+                <div class="company">
+                  <img src="./assets/codsoft.png" class="company-logo" />
+                  <div>
+                    <h4>UI/UX Intern — CodSoft (Virtual)</h4>
+                    <span class="tdate">Nov 2023 – Dec 2023</span>
+                  </div>
+                </div>
+              </div>
+              <ul>
+                <li>
+                  Created wireframes and UI designs using Figma and Adobe XD for
+                  web applications.
+                </li>
+                <li>
+                  Improved design consistency and user experience through
+                  iterative feedback.
+                </li>
+                <li>
+                  Collaborated with developers to deliver responsive and
+                  visually appealing interfaces.
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section alt">
+        <div class="container">
+          <h3 class="reveal" data-reveal="fade-up">Projects</h3>
+
+          <div class="grid cards">
+            <!-- Project 1 -->
+            <article class="card project-card reveal" data-reveal="fade-up">
+              <div class="p-header">
+                <h4>⚡ EV Charging Web App</h4>
+                <span class="badge">2025</span>
+              </div>
+
+              <a
+                class="project-img-link"
+                href="https://github.com/SandhiyaaM/ev-charging-angular"
+                target="_blank"
+                rel="noopener"
+                aria-label="View EV Charging Web App code on GitHub"
+              >
+                <img src="./assets/evcharge.png" class="project-img" />
+                <span class="img-overlay"
+                  ><i class="fab fa-github"></i> View Code</span
+                >
+              </a>
+
+              <ul class="project-points">
+                <li>
+                  Integrated map-based location system to find nearby EV
+                  stations
+                </li>
+                <li>
+                  Built real-time booking system with dynamic slot updates
+                </li>
+                <li>Designed fully responsive UI for mobile and desktop</li>
+                <li>
+                  Improved user experience using reusable Angular components
+                </li>
+              </ul>
+
+              <div class="tech-stack">
+                <span>Angular</span>
+                <span>TypeScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+
+              <div class="p-actions">
+                <!-- <a
+                  href="https://github.com/SandhiyaaM/ev-charging-angular"
+                  class="btn small"
+                  target="_blank"
+                  >Code</a
+                > -->
+                <!-- <a href="#" class="btn outline small">Live</a> -->
+              </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article
+              class="card project-card reveal"
+              data-reveal="fade-up"
+              data-delay="120"
+            >
+              <div class="p-header">
+                <h4>🫁 COPD Detection System</h4>
+                <span class="badge">2025</span>
+              </div>
+
+              <a
+                class="project-img-link"
+                href="https://github.com/SandhiyaaM/COPD-Breath-Sound-Analysis"
+                target="_blank"
+                rel="noopener"
+                aria-label="View COPD Detection System code on GitHub"
+              >
+                <img src="./assets/copd_demo.png" class="project-img" />
+                <span class="img-overlay"
+                  ><i class="fab fa-github"></i> View Code</span
+                >
+              </a>
+
+              <ul class="project-points">
+                <li>Built CNN-LSTM deep learning model</li>
+                <li>Extracted MFCC features from audio</li>
+                <li>Accurate disease classification</li>
+                <li>Data visualization for insights</li>
+              </ul>
+
+              <div class="tech-stack">
+                <span>Python</span>
+                <span>TensorFlow</span>
+                <span>ML</span>
+              </div>
+
+              <!-- <div class="p-actions">
+                <a
+                  href="https://github.com/SandhiyaaM/COPD-Breath-Sound-Analysis"
+                  class="btn small"
+                  target="_blank"
+                  >Code</a
+                >
+              </div> -->
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Patent / Achievements -->
+      <section class="section">
+        <div class="container two-col">
+          <div class="card highlight-card reveal" data-reveal="fade-right">
+            <h3>🏆 Patent</h3>
+            <p><strong>E-Vehicle Charging System</strong></p>
+            <p>Patent No: 202441025073 A</p>
+            <p class="muted">
+              Innovative system for efficient EV charging station access and
+              booking.
+            </p>
+          </div>
+          <div class="card reveal" data-reveal="fade-left" data-delay="120">
+            <h3>Hackathons &amp; Participation</h3>
+            <ul class="facts">
+              <li>
+                🚀 Participated in Socio Tech Hackathon 2024 — Built EV
+                accessibility solution
+              </li>
+              <li>
+                💡 Smart India Hackathon 2023 — Developed real-time
+                environmental monitoring system
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Education-->
+      <section class="section">
+        <div class="container">
+          <h3 class="reveal" data-reveal="fade-up">Education</h3>
+
+          <div class="edu-grid">
+            <div class="edu-card reveal" data-reveal="fade-up" data-delay="0">
+              <h4>🎓 B.E Computer Science Engineering</h4>
+              <p>Prince Shri Venkateshwara Padmavathy Engineering College</p>
+              <span>2021 – 2025</span>
+              <div class="score">CGPA: 8.30</div>
+            </div>
+
+            <div class="edu-card reveal" data-reveal="fade-up" data-delay="120">
+              <h4>🏫 HSC</h4>
+              <p>New Prince Matriculation Higher Secondary School</p>
+              <span>2021</span>
+              <div class="score">88%</div>
+            </div>
+
+            <div class="edu-card reveal" data-reveal="fade-up" data-delay="240">
+              <h4>🏫 SSLC</h4>
+              <p>New Prince Matriculation Higher Secondary School</p>
+              <span>2019</span>
+              <div class="score">83%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---certification-->
+
+      <section class="section alt">
+        <div class="container">
+          <h3 class="reveal" data-reveal="fade-up">Certifications</h3>
+
+          <div class="cert-grid">
+            <div class="cert-card reveal" data-reveal="pop" style="--i: 0">
+              <h4>🎓 NPTEL</h4>
+              <p>Programming in Java</p>
+            </div>
+
+            <div class="cert-card reveal" data-reveal="pop" style="--i: 1">
+              <h4>🎓 NPTEL</h4>
+              <p>Problem Solving in C</p>
+            </div>
+
+            <div class="cert-card reveal" data-reveal="pop" style="--i: 2">
+              <h4>🎨 UI/UX</h4>
+              <p>Human Computer Interface Design</p>
+            </div>
+
+            <div class="cert-card reveal" data-reveal="pop" style="--i: 3">
+              <h4>🛒 GUVI</h4>
+              <p>UI/UX &amp; E-commerce Design</p>
+            </div>
+
+            <div class="cert-card reveal" data-reveal="pop" style="--i: 4">
+              <h4>💻 Simplilearn</h4>
+              <p>Full Stack Java Development</p>
+            </div>
+
+            <div class="cert-card reveal" data-reveal="pop" style="--i: 5">
+              <h4>🎨 GUVI</h4>
+              <p>Mastering Figma UI/UX</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container contact">
+          <div class="reveal" data-reveal="fade-right">
+            <h3>Contact Me</h3>
+            <p class="lead">Have an interesting role or project? Let's talk.</p>
+            <ul class="facts">
+              <li>
+                <a href="mailto:sandhiyaa1309@gmail.com"
+                  >sandhiyaa1309@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="https://linkedin.com/in/sandhiyaa-m-a81081231"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>Chennai, Tamil Nadu</li>
+            </ul>
+          </div>
+
+          <form
+            class="contact-form reveal"
+            data-reveal="fade-left"
+            data-delay="120"
+            action="https://formspree.io/f/mnjopgkk"
+            method="POST"
+          >
+            <div class="field">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="_replyto"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="How can I help?"
+                required
+              ></textarea>
+            </div>
+
+            <button class="btn primary glow-btn" type="submit">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>© <span id="year"></span> Sandhiyaa M</p>
+        <div class="socials">
+          <a href="mailto:sandhiyaa1309@gmail.com" aria-label="Email">✉️</a>
+          <a
+            href="https://linkedin.com/in/sandhiyaa-m-a81081231"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            >in</a
+          >
+          <a
+            href="./assets/Sandhiyaa_Resume.pdf"
+            target="_blank"
+            rel="noopener"
+            aria-label="Resume"
+            >📄</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <button id="toTop" class="to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
