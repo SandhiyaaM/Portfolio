@@ -1,38 +1,38 @@
 # 🌐 Sandhiyaa M — Portfolio
 
 Welcome to my personal portfolio website!
-This project showcases my skills, experience, and projects as a **UI Developer / Designer**.
+This project showcases my skills, experience, and projects as a **Junior Full Stack Developer**.
 
 🔗 **Live Site:** [Add your deployed link here]
-📄 **Resume:** `./assets/Sandhiyaa_Resume.pdf`
+📄 **Resume:** `./assets/SandhiyaaM_FullStack-Resume.pdf`
 
 ---
 
 ## 👩‍💻 About Me
 
-Frontend Developer with internship experience building responsive web and mobile applications using React.js, Flutter, Angular, TypeScript, and Tailwind CSS. Skilled in developing reusable UI components, converting Figma designs into production-ready interfaces, and collaborating in Agile teams.
+Junior Full Stack Developer with hands-on internship experience across the MEAN/MERN and Java ecosystems, building responsive, production-ready applications with React.js, Angular, Flutter, TypeScript, Java, and SQL-backed REST/JSON services. Certified in Generative AI, Agentic AI & LLM architectures, and AWS cloud fundamentals, with a strong record of translating Figma designs into reusable, accessible UI components in Agile/Scrum teams using Git.
 
 - 📍 Chennai, Tamil Nadu
 - 🎓 B.E. Computer Science Engineering (2021–2025)
 - 🏫 Prince Shri Venkateshwara Padmavathy Engineering College
-- 💼 Actively seeking Frontend / UI Developer roles
+- 💼 Actively seeking Junior Full Stack Developer roles
 - 📊 14 Months Experience · 4 Internships · 2 Projects
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend**
-`React.js` `Flutter` `Angular` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS`
+**Languages & Database**
+`Java` `C` `Python` `SQL` `JavaScript` `TypeScript`
 
-**Programming**
-`Java` `C`
+**Full Stack / Frameworks**
+`MEAN Stack` `React.js` `Angular` `Flutter` `Node.js` `HTML5` `CSS3` `Tailwind CSS`
 
-**Database**
-`MySQL`
+**Web Services & Cloud**
+`REST API Integration` `JSON` `HTTP` `AWS (Solutions Architect – Associate)` `Git & GitHub`
 
-**Tools & UI/UX**
-`Figma` `Git & GitHub` `VS Code` `Chrome DevTools`
+**AI Tools & Practices**
+`Generative AI` `Agentic AI & LLM Architectures` `ChatGPT` `Claude AI` `GitHub Copilot` `Figma (Design-to-Code)` `SDLC` `Agile/Scrum`
 
 **Concepts**
 Responsive Design · Cross-Browser Compatibility · Component-Based UI
@@ -53,50 +53,54 @@ Responsive Design · Cross-Browser Compatibility · Component-Based UI
 ## 💼 Experience
 
 ### Frontend Developer Intern — Veract Consultancy Pvt. Ltd
-*March 2026 – July 2026*
+
+_March 2026 – July 2026 · Chennai_
+
 - Developed 3+ responsive UI screens for a School ERP application using Flutter, React.js, and Tailwind CSS, and built 2+ UI screens for a POS application using React.js and Tailwind CSS
-- Converted UI designs into responsive, reusable components and collaborated with the development team using Git
+- Converted UI designs into responsive, reusable components; collaborated with the development team using Git to deliver high-quality frontend features
 - Ensured cross-browser compatibility and consistent UI performance across devices using Chrome DevTools
 
 ### UI/UX Designer Intern — Codec Technologies Pvt. Ltd
-*Aug 2025 – Nov 2025*
-- Designed user-friendly wireframes and high-fidelity UI using Figma, improving usability
-- Translated UI designs into responsive web interfaces using HTML, CSS, and JavaScript
-- Applied modern UI/UX principles to enhance user experience across devices
 
-### Web Developer Intern — Chennai Metro Rail Ltd (CMRL)
-*May 2024 – Nov 2024 · Chennai*
-- Developed Angular modules for Revenue Reconciliation System, improving data processing efficiency by 30%
-- Integrated REST APIs to deliver dynamic UI features and real-time data updates
-- Optimized frontend performance, reducing page load time by 25%
-- Collaborated in Agile team delivering production-ready features within deadlines
+_Aug 2025 – Nov 2025 · Chennai_
 
-### UI/UX Intern — CodSoft (Virtual)
-*Nov 2023 – Dec 2023*
-- Created wireframes and UI designs using Figma and Adobe XD for web applications
-- Improved design consistency and user experience through iterative feedback
-- Collaborated with developers to deliver responsive and visually appealing interfaces
+- Designed wireframes, user flows, and high-fidelity UI designs using Figma across multiple projects, including a Healthcare Appointment System
+- Converted selected UI designs into HTML, CSS, and JavaScript for interaction and layout validation, applying usability and responsive design principles
+
+### Web Developer Intern — Chennai Metro Rail Limited (CMRL)
+
+_May 2024 – Nov 2024 · Chennai_
+
+- Developed 10+ responsive, pixel-perfect, accessible UI screens using Angular, HTML, CSS, and TypeScript from Figma designs
+- Improved UI performance by 25% using reusable Angular components and integrated REST APIs for real-time data rendering in an Agile environment
+
+### UI Designer Intern — CodSoft (Virtual)
+
+_Nov 2023 – Dec 2023_
+
+- Designed UI screens, wireframes, and interactive prototypes using Figma, focusing on layout consistency and user-centric design
 
 ---
 
 ## 📊 Projects
 
-### ⚡ EV Charging Web App — 2025
-- Integrated map-based location system to find nearby EV stations
-- Built real-time booking system with dynamic slot updates
-- Designed fully responsive UI for mobile and desktop
-- Improved user experience using reusable Angular components
+### ⚡ EV Charging Station Booking Web Application — 2025
 
-**Tech:** Angular · TypeScript · HTML · CSS
+- Designed and developed a responsive UI for locating and booking EV charging stations
+- Built reusable Angular components and routing for smooth navigation
+- Implemented slot booking and dashboard interfaces with map-based visualization
+- Managed UI state for available, booked, and unavailable slots
+
+**Tech:** Angular · TypeScript · HTML5 · CSS3
 🔗 [github.com/SandhiyaaM/ev-charging-angular](https://github.com/SandhiyaaM/ev-charging-angular)
 
-### 🫁 COPD Detection System — 2025
-- Built CNN-LSTM deep learning model
-- Extracted MFCC features from audio
-- Accurate disease classification
-- Data visualization for insights
+### 🫁 COPD Detection Using Breath Sound Analysis (Academic) — 2025
 
-**Tech:** Python · TensorFlow · ML
+- Built a deep learning project to detect COPD from breath sound datasets
+- Applied feature extraction and model evaluation techniques
+- Gained exposure to end-to-end ML workflows and data visualization for insights
+
+**Tech:** Python · TensorFlow · Matplotlib
 🔗 [github.com/SandhiyaaM/COPD-Breath-Sound-Analysis](https://github.com/SandhiyaaM/COPD-Breath-Sound-Analysis)
 
 ---
@@ -111,29 +115,29 @@ Innovative system for efficient EV charging station access and booking.
 
 ## 🚀 Hackathons & Participation
 
-- Socio Tech Hackathon 2024 — Built EV accessibility solution
-- Smart India Hackathon 2023 — Developed real-time environmental monitoring system
+- Socio Tech Hackathon 2024
+- Smart India Hackathon 2023
 
 ---
 
 ## 🎓 Education
 
-| Qualification | Institution | Year | Score |
-|---|---|---|---|
-| B.E. Computer Science Engineering | Prince Shri Venkateshwara Padmavathy Engineering College | 2021 – 2025 | CGPA: 8.30 |
-| HSC | New Prince Matriculation Higher Secondary School | 2021 | 88% |
-| SSLC | New Prince Matriculation Higher Secondary School | 2019 | 83% |
+| Qualification                     | Institution                                              | Year        | Score     |
+| --------------------------------- | -------------------------------------------------------- | ----------- | --------- |
+| B.E. Computer Science Engineering | Prince Shri Venkateshwara Padmavathy Engineering College | 2021 – 2025 | CGPA: 8.2 |
+| HSC                               | New Prince Matriculation Higher Secondary School         | 2021        | 88%       |
+| SSLC                              | New Prince Matriculation Higher Secondary School         | 2019        | 83%       |
 
 ---
 
 ## 📜 Certifications
 
-- 🎓 NPTEL — Programming in Java
-- 🎓 NPTEL — Problem Solving in C
-- 🎨 Human Computer Interface Design — UI/UX
-- 🛒 GUVI — UI/UX & E-commerce Design
-- 💻 Simplilearn — Full Stack Java Development
-- 🎨 GUVI — Mastering Figma UI/UX
+- 🧩 Diploma in Secure MEAN Stack Developer — Alison
+- ☁️ Diploma in AWS Solutions Architect – Associate — Alison
+- 🤖 Generative AI Fundamentals Accreditation — Databricks
+- 🧠 Introduction to Agentic AI & LLM Architectures — Simplilearn
+- 💻 Introduction to Web Development with ChatGPT (React.js, Tailwind CSS) — Simplilearn
+- ✨ Generative AI for Beginners — Simplilearn
 
 ---
 
@@ -141,6 +145,7 @@ Innovative system for efficient EV charging station access and booking.
 
 - 📧 Email: [sandhiyaa1309@gmail.com](mailto:sandhiyaa1309@gmail.com)
 - 🔗 LinkedIn: [linkedin.com/in/sandhiyaa-m-a81081231](https://linkedin.com/in/sandhiyaa-m-a81081231)
+- 💻 GitHub: [github.com/SandhiyaaM](https://github.com/SandhiyaaM)
 - 📍 Chennai, Tamil Nadu
 
 ---
@@ -157,7 +162,7 @@ Portfolio-main/
 │   ├── codsoft.png
 │   ├── evcharge.png
 │   ├── copd_demo.png
-│   └── Sandhiyaa_Resume.pdf
+│   └── SandhiyaaM_FullStack-Resume.pdf
 ├── index.html
 ├── styles.css
 ├── script.js
